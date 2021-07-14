@@ -1,0 +1,28 @@
+{
+  "name": "dev-env",
+  "version": "1.0.0",
+  "description": "Some developer environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "author": "dexat0r",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "~4",
+    "webpack": "~4",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "web3": "^1.4.0"
+  }
+}
